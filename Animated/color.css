@@ -1,0 +1,73 @@
+.body{
+	margin:0;
+	padding: 0;
+	
+}
+.first{
+	width: 150px;
+	height: 150px;
+	background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	margin-bottom: 2px;
+	animation:myframe 2s ease-in-out 0s infinite;
+	animation-direction:alternate;
+
+	
+}
+.second{
+	width: 150px;
+	height: 150px;
+	background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	margin-bottom: 2px;
+	animation:myframe 3s ease-in-out 0s infinite;
+	animation-direction:alternate;
+
+}
+.third{
+	width: 150px;
+	height: 150px;
+	background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	margin-bottom: 2px;
+	animation:myframe 2.5s ease-in-out 0s infinite;
+	animation-direction:alternate;
+
+}
+.forth{
+	width: 150px;
+	height: 150px;
+	background: #77A1D3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	margin-bottom: 2px;
+	animation:myframe 3.5s ease-in-out 0s infinite;
+	animation-direction:alternate;
+}
+	
+
+.first:hover,.second:hover, .third:hover, .forth:hover{
+	animation-play-state: paused;
+}
+
+
+@keyframes myframe{
+	0%{
+        width: 150px;
+	}
+	30%{
+		
+	}
+	100%{
+        width: 100%;
+	}
+}
+
+
